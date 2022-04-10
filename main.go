@@ -13,7 +13,7 @@ import (
 
 func main() {
 	sl := flag.String("sl", "en", "source language")
-	tl := flag.String("tl", "id", "translated language")
+	tl := flag.String("tl", "id", "target language")
 	q := flag.String("q", "words", "text to be translated")
 	flag.Parse()
 
